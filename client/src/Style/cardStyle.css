@@ -1,0 +1,25 @@
+.card {
+  margin-top: 1.8vw;
+  /* min-width: 30vw; */
+  width: 23vw;
+}
+
+.list-group-item {
+  padding-left: 7vw;
+  display: flex;
+
+  flex-direction: row;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 33vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 60vw;
+  }
+}
